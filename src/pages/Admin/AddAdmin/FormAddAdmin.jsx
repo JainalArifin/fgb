@@ -2,11 +2,14 @@ import React, { Component } from 'react';
 // style
 import './style.css'
 import { Button, Icon, Alert } from 'antd'
-import { Container, Row, Col, Form, FormGroup, Label, Input, Card } from 'reactstrap'
+import { Form, FormGroup, Label, Input, Card } from 'reactstrap'
 import swal from 'sweetalert2'
 // API
 import axios from 'axios'
 import { API_SERVICE } from '../../../config/constant'
+// redux
+import { connect } from 'react-redux'
+import { getAdminApi } from '../../../redux/actions/adminAction'
 
 class FormAddAdmin extends Component {
     constructor(){
@@ -32,7 +35,7 @@ class FormAddAdmin extends Component {
         if(ussername !== '' || email !== '' || password !== ''){
             this.setState({handleKosong: false})
             if(password.length >= 6){
-                console.log(password.length, ' <---- pass')
+                // console.log(password.length, ' <---- pass')
                 axios.post(`${API_SERVICE.baseURL}/admin`, {
                     ussername: ussername,
                     email: email,
@@ -50,6 +53,7 @@ class FormAddAdmin extends Component {
                         password: '',
                         handlePassword: false ,
                     })
+                    this.props.getAdmin()
                 }).catch((err) => console.log(err))
             }else{
                 this.setState({ handlePassword: true })
@@ -133,4 +137,17 @@ class FormAddAdmin extends Component {
     }
 }
 
-export default FormAddAdmin;
+const mapStateToProps = (state) => {
+    return {
+
+    }
+}
+const mapDispatchToProps = ( dispatch ) => {
+    return {
+        getAdmin: () => { dispatch(getAdminApi()) }
+    }
+}
+
+const FormAminRedux = connect(mapStateToProps, mapDispatchToProps)(FormAddAdmin)
+
+export default FormAminRedux;

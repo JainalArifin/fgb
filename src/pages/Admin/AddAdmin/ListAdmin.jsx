@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Table } from 'antd'
-import axios from 'axios'
-import { API_SERVICE } from '../../../config/constant'
-
+// redux
+import { connect } from 'react-redux'
+import { getAdminApi } from '../../../redux/actions/adminAction'
 
 const columns = [
     {
@@ -18,33 +18,32 @@ const columns = [
 ];
 
 class ListAdmin extends Component {
-    constructor(){
-        super()
-        this.state = {
-            listAdmin: []
-        }
-    }
-
-    getData = () => {
-        axios.get(`${API_SERVICE.baseURL}/admin`)
-        .then(({ data })=> this.setState({ listAdmin: data }))
-        .catch((err) => console.log(err))
-    }
-
     componentDidMount() {
-        this.getData()
+        this.props.getAdmin()
     }
-
 
     render() {
-        const { listAdmin } = this.state
+        const { dataAdmin } = this.props
         return (
             <div className="p-3 shadow-lg">
                 <h2>List admin</h2>
-                <Table dataSource={listAdmin} columns={columns} />
+                <Table dataSource={dataAdmin} columns={columns} />
             </div>
         );
     }
 }
+const mapStateToProps = (state) => {
+    return {
+        dataAdmin: state.adminReducers.admin
+    }
+}
 
-export default ListAdmin;
+const mapDispatchToProps = (dispatch) => {
+    return {
+        getAdmin:()=> { dispatch(getAdminApi()) }
+    }
+}
+
+const ListAdminRedux = connect(mapStateToProps, mapDispatchToProps)(ListAdmin)
+
+export default ListAdminRedux;

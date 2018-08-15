@@ -73,6 +73,28 @@ class EditModal extends Component {
         });
     };
 
+    // get image
+    uploadImageCallBack(file) {
+        return new Promise(
+          (resolve, reject) => {
+            const xhr = new XMLHttpRequest();
+            xhr.open('POST', 'https://api.imgur.com/3/image');
+            xhr.setRequestHeader('Authorization', 'Client-ID c6a4fa45b0c5d6a');
+            const data = new FormData();
+            data.append('image', file);
+            xhr.send(data);
+            xhr.addEventListener('load', () => {
+              const response = JSON.parse(xhr.responseText);
+              resolve(response);
+            });
+            xhr.addEventListener('error', () => {
+              const error = JSON.parse(xhr.responseText);
+              reject(error);
+            });
+          }
+        );
+    }
+
     handleChange = (e) => {
         this.setState({
             [e.target.name]: e.target.value,
@@ -211,6 +233,9 @@ class EditModal extends Component {
                                     className="editor-style"
                                     name="editorState"
                                     value={editorState}
+                                    toolbar={{
+                                        image: { uploadCallback: this.uploadImageCallBack, alt: { present: true, mandatory: true } },
+                                    }}
                                 />
                             </FormGroup>
                             <Button color="primary" type="submit" >Add Blog</Button>
