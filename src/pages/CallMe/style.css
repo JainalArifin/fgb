@@ -1,0 +1,88 @@
+/* desktop */
+@media (min-width:801px) {
+    .callmeStyle{
+        background: url('../../assets/banner-04.jpg');
+        margin-top: 4%;
+        color: white;
+        height: 339px;
+        background-position-x: center !important;
+        /* margin-bottom: 250px; */
+    }
+    .card-callMe {
+        height: 306px;
+        width: 50% !important ;
+    }
+    .Hubungi-Kami.col-md-6 {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+/* mobile */
+@media only screen and (min-device-width:320px) {
+    .callmeStyle{
+        background: url('../../assets/banner-04.jpg');
+        margin-top: 4%;
+        color: white;
+        height: 339px;
+        background-position-x: center !important;
+        /* margin-bottom: 250px; */
+    }
+    .card-callMe {
+        height: 306px;
+        width: 100%;
+        margin-top: 10px !important;
+    }
+}
+
+p.title-callMe {
+    font-weight: 900;
+    padding-top: 12px;
+}
+/* icon */
+svg.svg-inline--fa.fa-phone.fa-w-16.text-center {
+    margin: auto !important;
+    font-size: 60px;
+}
+svg.svg-inline--fa.fa-comments.fa-w-18.text-center.text-dark {
+    font-size: 60px;
+    margin: auto !important;
+}
+p.callMe-desc {
+    font-weight: 100;
+    font-size: 12px;
+}
+button.btn-callMe.btn.btn-secondary {
+    background-color: #213364;
+}
+button.btn-callMe.btn.btn-secondary:hover {
+    background-color: #36539F;
+}
+.card-callMe.card {
+    border-radius: 0px !important;
+    border: 0px !important;
+}
+
+/* connect our */
+img.imgBanner-callme {
+    width: 100%;
+    border-radius: 13px !important;
+}
+.titleCallme.row {
+    margin-top: 79px !important;
+    border-top: 6px solid #F3A94A;
+    width: 57%;
+    margin: auto;
+    border-radius: 1px;
+}
+h1.text-center.connect-title {
+    color: #213364;
+}
+.address-callme {
+    font-weight: 200;
+    line-height: 17px;
+    font-size: 13px;
+}
+p.locationCallme {
+    margin-bottom: 0px;
+    margin-top: 26px;
+}

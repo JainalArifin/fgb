@@ -1,0 +1,90 @@
+/* carausel */
+img.img-carausel {
+    width: 100% !important;
+}
+
+/* why-us */
+h3.text-center.h3Style {
+    text-transform: uppercase !important;
+    color: #203265 !important;
+    font-weight: 700;
+}
+.fitur {
+    text-align: center !important;
+    margin-top: 59px;
+}
+img.iconStyle {
+    width: 73%;
+}
+.why-us-h3 {
+    text-align: center;
+    font-weight: bold;
+    margin: 1.5rem 0 .5rem;
+    font-size: 1.5rem;
+}
+.why-us-desc {
+    font-style: italic;
+}
+
+/* Learn-more */
+h2.h2Style.learn-more {
+    margin-top: 80px;
+    color: #203265 !important;
+    font-weight: 700;
+    line-height: 1.1;
+}
+button.learning-button.btn.btn-secondary.btn-lg {
+    background-color: #203265 !important;
+}
+button.learning-button.btn.btn-secondary.btn-lg:hover {
+    background-color: #182547 !important;
+}
+img.womenAds {
+    width: 50%;
+    float: right;
+}
+
+/* map Home */
+.embed-responsive.embed-responsive-16by9 {
+    margin-top: 40px;
+}
+/* Brand Location */
+.location-brand {
+    display: flex;
+    justify-content: row;
+}
+.name-brand {
+    color: #203265 !important;
+    font-weight: 700;
+    font-size: 15px;
+}
+img.location-img {
+    width: 10% !important;
+    height: 10%;
+}
+p.gps-text {
+    font-size: 13px;
+    color: #203265 !important;
+    font-weight: 400;
+}
+.phone-style {
+    display: flex;
+}
+.numberPhone-style.ml-2.mt-2 {
+    font-size: 13px;
+    color: #203265 !important;
+}
+img.iconBappeti {
+    width: 100%;
+    margin-top: 10px;
+}
+.style-regulation {
+    font-size: 12px;
+    font-weight: 700;
+    color: #203265 !important;
+}
+img.member-icon {
+    width: 42%;
+    height: 94px;
+    margin: auto;
+}

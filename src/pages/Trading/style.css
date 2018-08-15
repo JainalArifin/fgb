@@ -1,0 +1,27 @@
+.tradding-style {
+    margin-top: 120px;
+}
+h1.head-tradding {
+    color: #223566;
+    font-weight: 500;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+p.desc-tradding {
+    font-weight: 200;
+}
+button.btn-account.btn.btn-secondary {
+    background-color: #F3A94A;
+    border: 1px solid #F3A94A;
+    margin-bottom: 60px;
+}
+button.btn-account.btn.btn-secondary {
+    background-color: #f7ab2e;
+    border-color: #f7ab2e;
+    color: #203265 !important;
+}
+button.btn-account.btn.btn-secondary:hover {
+    background-color: #e89c33;
+    border-color: #f7ab2e;
+    color: #203265 !important;
+}

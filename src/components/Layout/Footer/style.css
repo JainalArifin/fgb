@@ -1,0 +1,56 @@
+.footer-style {
+    background-color: #203265 !important;
+    color: white;
+}
+
+/* link footer */
+.footer-title {
+    font-weight: 500;
+    margin: 35px 0px 20px 0px;
+}
+ul.list-link {
+    -webkit-padding-start: 0;
+    font-size: 12px;
+    margin-top: 0px;
+    list-style: none;
+}
+
+ul.list-link a {
+    color: #F3A94A;
+    line-height: 2;
+}
+ul.list-link a:hover {
+    color: white;
+    text-decoration: none;
+}
+.footer-desc {
+    color: #F3A94A;
+    font-size: 12px;
+}
+.footer-desc-style {
+    font-size: 13px !important;
+    font-weight: 400;
+}
+svg.svg-inline--fa.fa-facebook-square.fa-w-14.socialMedia {
+    font-size: 33px !important;
+}
+svg.svg-inline--fa.fa-instagram.fa-w-14.ml-4.socialMedia {
+    font-size: 33px !important;
+}
+/* form email */
+.emailStyle {
+    background-color: #F5AA3E;
+}
+input.email-input-style.form-control {
+    width: 250px !important;
+    border: 1px solid black;
+}
+button.button-daftar.btn.btn-secondary {
+    background-color: white !important;
+    color: black;
+    border: 0px !important;
+    font-weight: 100;
+}
+button.button-daftar.btn.btn-secondary:hover {
+    background-color: #E2E6EA !important;
+}

@@ -1,0 +1,33 @@
+.education.container {
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+/* list video */
+.desc-video {
+    border-top: 10px solid #f3a94a;
+    width: 62%;
+    margin: auto;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+/* desktop */
+@media (min-width:801px) {
+    .rh5v-DefaultPlayer_component.mt-2.shadow-lg.videoStyle {
+        width: 70% !important;
+        margin: auto;
+        box-shadow: 3px 8px 24px 2px #888888 !important;
+    }
+}
+/* mobile */
+@media (min-width: 576px) {
+    .rh5v-DefaultPlayer_component.mt-2.shadow-lg.videoStyle {
+        width: 100%;
+        margin: auto;
+        box-shadow: 3px 8px 24px 2px #888888 !important;
+    }
+}
+h1.video-title {
+    color: #203265 !important;
+    margin-top: 25px;
+    font-weight: 500;
+}

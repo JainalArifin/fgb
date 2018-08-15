@@ -1,0 +1,188 @@
+{
+  "blog": [
+    {
+      "title": "test 1",
+      "description": "<p>aaaaaaaaaaaaaaaa</p>\n",
+      "imgToUrl": "https://assets.awwwards.com/awards/media/cache/optimize/submissions/2018/07/5b59865875e84.png",
+      "date": "agustus 15 2018",
+      "author": "Agus",
+      "id": 5
+    },
+    {
+      "id": 8,
+      "imgToUrl": "https://assets.awwwards.com/awards/media/cache/optimize/submissions/2018/07/5b446fa9e8be0.jpg",
+      "title": "KALPA Collection",
+      "description": "What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.  Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+      "date": "August 07, 2018",
+      "author": "Diki",
+      "category": "knowlage"
+    },
+    {
+      "id": 9,
+      "imgToUrl": "https://assets.awwwards.com/awards/media/cache/optimize/submissions/2018/06/5b35cf88e9548.jpg",
+      "title": "Toujours Jaune!",
+      "description": "What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.  Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+      "date": "August 07, 2018",
+      "author": "Rifki",
+      "category": "knowlage"
+    },
+    {
+      "id": 11,
+      "imgToUrl": "https://assets.awwwards.com/awards/media/cache/optimize/submissions/2018/07/5b59865875e84.png",
+      "title": "Hogan",
+      "description": "What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.  Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+      "date": "August 07, 2018",
+      "author": "Agus",
+      "category": "knowlage"
+    },
+    {
+      "id": 12,
+      "imgToUrl": "https://assets.awwwards.com/awards/media/cache/optimize/submissions/2018/07/5b44b179ed648.jpg",
+      "title": "Mowellens",
+      "description": "What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.  Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+      "date": "August 07, 2018",
+      "author": "Rahmat",
+      "category": "knowlage"
+    },
+    {
+      "title": "knowlage",
+      "description": "<p style=\"text-align:left;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 24px;font-family: DauphinPlain;\">What is Lorem Ipsum?</span></p>\n<p style=\"text-align:justify;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 14px;font-family: Open Sans\", Arial, sans-serif;\"><strong>Lorem Ipsum</strong></span> <span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 14px;font-family: Open Sans\", Arial, sans-serif;\">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span></p>\n<p style=\"text-align:left;\"></p>\n<h2 style=\"text-align:left;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 24px;font-family: DauphinPlain;\">Why do we use it?</span></h2>\n<p style=\"text-align:justify;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 14px;font-family: Open Sans\", Arial, sans-serif;\">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</span><br></p>\n<p style=\"text-align:left;\"></p>\n<h2 style=\"text-align:left;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 24px;font-family: DauphinPlain;\">Where does it come from?</span></h2>\n<p style=\"text-align:justify;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 14px;font-family: Open Sans\", Arial, sans-serif;\">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.</span></p>\n<p style=\"text-align:justify;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 14px;font-family: Open Sans\", Arial, sans-serif;\">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</span></p>\n<p style=\"text-align:left;\"></p>\n<h2 style=\"text-align:left;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 24px;font-family: DauphinPlain;\">Where can I get some?</span></h2>\n<p style=\"text-align:justify;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 14px;font-family: Open Sans\", Arial, sans-serif;\">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</span></p>\n",
+      "imgToUrl": "http://www.cutestpaw.com/wp-content/uploads/2011/11/OIo.jpg",
+      "date": "agustus 15 2018",
+      "author": "fikri",
+      "id": 13
+    },
+    {
+      "title": "teknology",
+      "description": "<p style=\"text-align:left;\"></p>\n<h2 style=\"text-align:left;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 24px;font-family: DauphinPlain;\">What is Lorem Ipsum?</span></h2>\n<p style=\"text-align:justify;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 14px;font-family: Open Sans\", Arial, sans-serif;\"><strong>Lorem Ipsum</strong></span> <span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 14px;font-family: Open Sans\", Arial, sans-serif;\">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span></p>\n<p style=\"text-align:left;\"></p>\n<h2 style=\"text-align:left;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 24px;font-family: DauphinPlain;\">Why do we use it?</span></h2>\n<p style=\"text-align:justify;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 14px;font-family: Open Sans\", Arial, sans-serif;\">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</span><br></p>\n<p style=\"text-align:left;\"></p>\n<h2 style=\"text-align:left;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 24px;font-family: DauphinPlain;\">Where does it come from?</span></h2>\n<p style=\"text-align:justify;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 14px;font-family: Open Sans\", Arial, sans-serif;\">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.</span></p>\n<p style=\"text-align:justify;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 14px;font-family: Open Sans\", Arial, sans-serif;\">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</span></p>\n<p style=\"text-align:left;\"></p>\n<h2 style=\"text-align:left;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 24px;font-family: DauphinPlain;\">Where can I get some?</span></h2>\n<p style=\"text-align:justify;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 14px;font-family: Open Sans\", Arial, sans-serif;\">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</span></p>\n",
+      "imgToUrl": "http://1.bp.blogspot.com/-lO8VOriHGWI/VEoG6SIXZKI/AAAAAAAAA5U/Onm_K89jrZc/s1600/thumnail.jpg",
+      "date": "agustus 15 2018",
+      "author": "zainal",
+      "id": 14
+    },
+    {
+      "title": "test",
+      "description": "<p>ijijijijijijsaskajksjaksjkajska <strong>sasasas asasas</strong></p>\n",
+      "imgToUrl": "https://images.shazam.com/coverart/t2977225-b86732555_s400.jpg",
+      "date": "agustus undefined agustus 15 2018",
+      "author": "dedi",
+      "id": 15
+    },
+    {
+      "title": "test",
+      "description": "<p style=\"text-align:left;\"></p>\n<h2 style=\"text-align:left;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 24px;font-family: DauphinPlain;\">What is Lorem Ipsum?</span></h2>\n<p style=\"text-align:justify;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 14px;font-family: Open Sans\", Arial, sans-serif;\"><strong>Lorem Ipsum</strong></span> <span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 14px;font-family: Open Sans\", Arial, sans-serif;\">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span></p>\n<p style=\"text-align:left;\"></p>\n<h2 style=\"text-align:left;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 24px;font-family: DauphinPlain;\">Why do we use it?</span></h2>\n<p style=\"text-align:justify;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 14px;font-family: Open Sans\", Arial, sans-serif;\">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</span><br></p>\n<p style=\"text-align:left;\"></p>\n<h2 style=\"text-align:left;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 24px;font-family: DauphinPlain;\">Where does it come from?</span></h2>\n<p style=\"text-align:justify;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 14px;font-family: Open Sans\", Arial, sans-serif;\">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.</span></p>\n<p style=\"text-align:justify;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 14px;font-family: Open Sans\", Arial, sans-serif;\">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</span></p>\n<p style=\"text-align:left;\"></p>\n<h2 style=\"text-align:left;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 24px;font-family: DauphinPlain;\">Where can I get some?</span></h2>\n<p style=\"text-align:justify;\"><span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 14px;font-family: Open Sans\", Arial, sans-serif;\">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</span></p>\n",
+      "imgToUrl": "https://lh3.googleusercontent.com/4AjB3umlbbRxWKs4Cgt8CoUajnvhQ5-wgS4O-T4rmrbf7aVT9OB1P8PZoT1j4HoZPICXc4ck85nFTpvLSDK25EI-t1_ysZfcNbLOKx6dakZsc2gv90cuO6txtt-u7zUUkTkE2IJm",
+      "date": "agustus 15 2018",
+      "author": "test",
+      "id": 16
+    }
+  ],
+  "users": [
+    {
+      "firstName": "asasas",
+      "lastName": "popopo",
+      "email": "diki@gmail.com",
+      "password": "pakuhaji",
+      "date": "1990-12-12",
+      "numberPhone": "089626888113",
+      "role": "user biasa",
+      "id": 1
+    },
+    {
+      "firstName": "asasas",
+      "lastName": "asasa",
+      "email": "zainalunpam05@gmail.com",
+      "password": "pakuhaji",
+      "date": "2018-08-22",
+      "numberPhone": "089626888113",
+      "role": "admin",
+      "id": 2
+    },
+    {
+      "firstName": "test",
+      "lastName": "test",
+      "email": "pengek@gmail.com",
+      "password": "123456",
+      "date": "1990-12-19",
+      "numberPhone": "099891829812",
+      "role": "user biasa",
+      "id": 3
+    },
+    {
+      "firstName": "test",
+      "lastName": "test",
+      "email": "pengek@gmail.com",
+      "password": "123456",
+      "date": "1990-12-19",
+      "numberPhone": "099891829812",
+      "role": "user biasa",
+      "id": 4
+    },
+    {
+      "firstName": "jaka",
+      "lastName": "kk",
+      "email": "sasa@gmail.com",
+      "password": "123456",
+      "date": "1990-12-12",
+      "numberPhone": "121212",
+      "role": "user biasa",
+      "id": 5
+    },
+    {
+      "firstName": "jaka",
+      "lastName": "kk",
+      "email": "sasa@gmail.com",
+      "password": "123456",
+      "date": "1990-12-12",
+      "numberPhone": "121212",
+      "role": "user biasa",
+      "id": 6
+    },
+    {
+      "firstName": "jaka",
+      "lastName": "kk",
+      "email": "sasa@gmail.com",
+      "password": "123456",
+      "date": "1990-12-12",
+      "numberPhone": "121212",
+      "role": "user biasa",
+      "id": 7
+    },
+    {
+      "firstName": "jaka",
+      "lastName": "kk",
+      "email": "sasa@gmail.com",
+      "password": "123456",
+      "date": "1990-12-12",
+      "numberPhone": "121212",
+      "role": "user biasa",
+      "id": 8
+    }
+  ],
+  "admin": [
+    {
+      "id": 1,
+      "ussername": "admin",
+      "email": "zainal@gmail.com",
+      "password": "admin"
+    },
+    {
+      "ussername": "zainal",
+      "email": "zainalunpam05@gmail.com",
+      "password": "pakuhaji",
+      "id": 2
+    },
+    {
+      "ussername": "junedi",
+      "email": "test@gmail.com",
+      "password": "sugeng",
+      "id": 3
+    },
+    {
+      "ussername": "test",
+      "email": "test@gmail.com",
+      "password": "123456",
+      "id": 4
+    }
+  ]
+}
