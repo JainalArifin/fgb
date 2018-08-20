@@ -1,0 +1,22 @@
+.login-admin.p-4.shadow-lg.card {
+    width: 330px;
+    margin: auto;
+    margin-top: 66px;
+}
+i.anticon.anticon-user.icon-login-admin {
+    font-size: 57px !important;
+    border: 5px solid orange  !important;
+    border-radius: 50%  !important;
+    padding: 4px  !important;
+    margin-bottom: 11px  !important;
+}
+p.login-title-admin {
+    color: #04047d;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+input.input-login-admin.form-control {
+    border: 1px solid;
+    border-radius: 7px;
+}

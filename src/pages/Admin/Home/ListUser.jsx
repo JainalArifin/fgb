@@ -12,6 +12,12 @@ class ListUser extends Component {
                     itemLayout="horizontal"
                     dataSource={dataUser}
                     className="list-style-dashboard shadow-lg p-3"
+                    pagination={{
+                        onChange: (page) => {
+                          console.log(page);
+                        },
+                        pageSize: 10,
+                    }}
                     renderItem={item => (
                         <List.Item>
                             <List.Item.Meta

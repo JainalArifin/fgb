@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './style.css'
 import {
     Container,
     Row,
@@ -8,11 +9,14 @@ import {
     FormGroup,
     Label,
     Input,
-    Alert
 } from 'reactstrap'
+import { Alert } from 'antd'
 import { Link, Redirect } from 'react-router-dom'
+
+// get API
 import axios from 'axios'
-import './style.css'
+import { API_SERVICE } from '../../config/constant'
+
 
 const API_TOKEN_USER = `http://localhost:3888/auth/login`
 class Login extends Component {
@@ -23,7 +27,8 @@ class Login extends Component {
             password: '',
             handleIncorrect: false,
             redirect: false,
-            role: '',
+            handleEmail: false,
+            user: []
         }
     }
 
@@ -35,54 +40,46 @@ class Login extends Component {
 
     handleSubmit = (e) => {
         e.preventDefault()
-        const { email, password } = this.state
-        axios.post(API_TOKEN_USER, {
-            email: email,
-            password: password
+        const { email, password, user } = this.state
+
+        let tmpEmial = 'kosong'
+        user.map((item)=> {
+            if(item.email === email){
+                tmpEmial = 'ada email'
+                return tmpEmial
+            }
         })
-        .then(({ data })=>{
-            if(data === 'Incorrect email or password'){
-                this.setState({
-                    password: '',
-                    handleIncorrect: true
-                })
-            } else {
-                // data.access_token
-                console.log(data, ' ----- cek data')
-                localStorage.setItem('token', data.access_token)
-                localStorage.setItem('role', data.role)
+
+        if(tmpEmial === 'kosong'){
+            return this.setState({ handleEmail: true })
+        }else{
                 this.setState({
                     email: '',
                     password: '',
-                    handleIncorrect: false,
-                    role: data.role,
+                    handleEmail: false,
                     redirect: true,
                 })
-            }
-            // console.log(data, ' <---- token')
-        }).catch((err)=> console.error(err) )
+        }
     }
+
+    getData = () => {
+        axios.get(`${API_SERVICE.baseURL}/users`)
+        .then(({ data })=> this.setState({ user: data }) )
+        .catch((err) => console.error(err))
+    }
+
     componentDidMount(){
-        this.setState({
-            role: ''
-        })
+        this.getData()
     }
 
     render() {
-        const { handleIncorrect, redirect, role } = this.state
+        const { handleIncorrect, redirect, handleEmail } = this.state
         if(redirect === true){
-            console.log(role, ' <----- cek role')
-            if(role === 'user biasa') {
-                console.log(' <----- anehhhhhhh')
-                return <Redirect to="/" />
-            }
-            // if(role === 'admin'){
-                return <Redirect to="/admin" />
-            // }
-            // return
+            return <Redirect to="/" />
         }
         return (
             <Container className="register">
+                {/* {console.log(this.state.user)} */}
                 <Row>
                     <Col md={12}>
                         <div className="text-center" >
@@ -92,10 +89,13 @@ class Login extends Component {
                         <Form className="register-style mt-4"
                             onSubmit={this.handleSubmit}
                         >
-                            {handleIncorrect === true && (
-                                <Alert color="danger" >
-                                    <p>Maaf email dan password anda salah</p>
-                                </Alert>
+                            {handleEmail === true && (
+                                <Alert
+                                    message="Maaf"
+                                    description="Email dan Password tidak cocok"
+                                    type="error"
+                                    showIcon
+                                />
                             )}
                             <FormGroup>
                                 <Label className="title-register">Email</Label>

@@ -6,9 +6,11 @@ import '../../../../../node_modules/react-draft-wysiwyg/dist/react-draft-wysiwyg
 import { EditorState, convertToRaw, ContentState } from 'draft-js';
 import { Editor } from 'react-draft-wysiwyg';
 import draftToHtml from 'draftjs-to-html';
-import htmlToDraft from 'html-to-draftjs';
 import axios from 'axios'
 import swal from 'sweetalert2'
+//  redux
+import { connect } from 'react-redux'
+import { getApiBlog } from '../../../../redux/actions/blogAction'
 
 
 const API_BLOG = `http://localhost:4000/blog`
@@ -112,6 +114,7 @@ class AddBlog extends Component {
             author: this.state.author,
         })
             .then(({ data }) => {
+                this.props.getBlog()
                 swal({
                     position: 'top-end',
                     type: 'success',
@@ -195,5 +198,19 @@ class AddBlog extends Component {
         );
     }
 }
+const mapStateToProps = (state) => {
+    console.log(state.blogReducers.blog, ' <---- blog')
+    return {
 
-export default AddBlog;
+    }
+}
+
+const mapDispatchToProps = (dispatch) => {
+    return {
+        getBlog: () => { dispatch(getApiBlog()) }
+    }
+}
+
+const AddBlogRedux = connect(mapStateToProps, mapDispatchToProps)(AddBlog)
+
+export default AddBlogRedux;

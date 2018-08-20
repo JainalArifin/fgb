@@ -26,10 +26,6 @@ const columns = [
     {
         title: 'Number Phone',
         dataIndex: 'numberPhone'
-    },
-    {
-        title: 'Role',
-        dataIndex: 'role'
     }
 ]
 

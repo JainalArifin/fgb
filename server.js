@@ -27,7 +27,7 @@ function verifyToken(token) {
 
 // Check if the user exists in database
 function isAuthenticated({ email, password }) {
-    return userdb.users.findIndex(user => user.email === email && user.password === password) !== -1
+    return userdb.admin.findIndex(user => user.email === email && user.password === password) !== -1
 }
 
 server.post('/auth/login', (req, res) => {

@@ -33,6 +33,7 @@ class ListAdmin extends Component {
     }
 }
 const mapStateToProps = (state) => {
+    // console.log(state.adminReducers.admin, ' <---- admin')
     return {
         dataAdmin: state.adminReducers.admin
     }

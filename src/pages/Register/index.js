@@ -15,7 +15,8 @@ import { Link, Redirect } from 'react-router-dom'
 import axios from 'axios'
 import './style.css'
 
-const API_USER = `http://localhost:4000/users`
+import { API_SERVICE } from '../../config/constant'
+
 class Register extends Component {
     constructor() {
         super()
@@ -37,9 +38,9 @@ class Register extends Component {
         this.handleChange = this.handleChange.bind(this)
     }
     getData = () => {
-        axios.get(API_USER)
+        axios.get(`${API_SERVICE.baseURL}/users`)
             .then(({ data }) => {
-                console.log(data)
+                // console.log(data)
                 this.setState({ user: data })
             })
     }
@@ -57,66 +58,78 @@ class Register extends Component {
     handleSubmit = (e) => {
         e.preventDefault()
         const { firstName, lastName, email, password, date, numberPhone, user } = this.state
+        console.log(user, ' <----- cek user')
+        let tmpBolean = false
         user.map((item) => {
-            if (item.email === email) {
-                console.log(' email sudah di gunakan')
-                return this.setState({    handleEmail: true })
-            }else {
-                console.log(' 1 <-------')
-                this.setState({ handleEmail: false,})
-                if (
-                    firstName === '' || lastName === '' || email === '' || password === '' || date === '' || numberPhone === '' || user === ''
-                ) {
-                    console.log(' 2 <-------')
-                   return this.setState({  handleKosong: true, passwordHandle: false })
-                }else{
-                    console.log(' 3 <-------')
-                    this.setState({  handleKosong: false })
+            // console.log(item.item, ' <----- cek item')
+            // console.log(email, ' <----- cek email')
+                if (item.email === email) {
+                    console.log(' email sudah di gunakan')
+                    tmpBolean = true
+                    return tmpBolean
                 }
-                if (password.length >= 6) {
-                    console.log(' 4 <-------')
-                    console.log(' validasi sukses ')
-                    axios.post(API_USER, {
-                        firstName: firstName,
-                        lastName: lastName,
-                        email: email,
-                        password: password,
-                        date: date,
-                        numberPhone: numberPhone,
-                        role: 'user biasa'
-                    })
-                        .then(() => {
-                            console.log('berhasil register')
-                            swal(
-                                'Berhasil Register!',
-                                'silahkan click button OK!',
-                                'success'
-                            )
-                            this.setState({
-                                firstName: '',
-                                lastName: '',
-                                email: '',
-                                password: '',
-                                date: '',
-                                numberPhone: '',
-                                user: [],
 
-                                passwordHandle: false,
-                                handleEmail: false,
-                                redirect: true,
-                            })
-                        })
-                        .catch((err) => {
-                            console.error(err)
-                        })
-                } else {
-                    console.log(' 5 <-------')
-                    this.setState({
-                        passwordHandle: true
-                    })
-                }
-            }
         })
+        if(tmpBolean === true){
+            return this.setState({    handleEmail: tmpBolean })
+        }else {
+            console.log(' 1 <-------')
+            this.setState({ handleEmail: false,})
+            if (
+                firstName === '' || lastName === '' || email === '' || password === '' || date === '' || numberPhone === '' || user === ''
+            ) {
+                console.log(' 2 <-------')
+               return this.setState({  handleKosong: true, passwordHandle: false })
+            }else{
+                console.log(' 3 <-------')
+                this.setState({  handleKosong: false })
+            }
+            if (password.length >= 6) {
+                console.log(' 4 <-------')
+                console.log(' validasi sukses ')
+                axios.post(`${API_SERVICE.baseURL}/users`, {
+                    firstName: firstName,
+                    lastName: lastName,
+                    email: email,
+                    password: password,
+                    date: date,
+                    numberPhone: numberPhone,
+                    role: 'user biasa'
+                })
+                    .then(() => {
+                        console.log('berhasil register')
+                        swal(
+                            'Berhasil Register!',
+                            'silahkan click button OK!',
+                            'success'
+                        )
+                        this.setState({
+                            firstName: '',
+                            lastName: '',
+                            email: '',
+                            password: '',
+                            date: '',
+                            numberPhone: '',
+                            user: [],
+
+                            passwordHandle: false,
+                            handleEmail: false,
+                            // redirect: true,
+                        })
+                        return
+                    })
+                    .catch((err) => {
+                        console.error(err)
+                    })
+            } else {
+                console.log(' 5 <-------')
+                this.setState({
+                    passwordHandle: true
+                })
+            }
+
+
+        }
     }
 
     render() {

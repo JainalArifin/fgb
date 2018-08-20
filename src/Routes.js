@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom'
 import Loadable from 'react-loadable';
+import { Spin } from 'antd';
 // Layout
 import Header from './components/Layout/Header';
 import Footer from './components/Layout/Footer';
@@ -21,6 +22,9 @@ import Login from './pages/Login';
 // import Admin from './pages/Admin/Home';
 import AdminLayout from './pages/Admin';
 import ListBlog from './pages/Blog/ListBlog';
+
+// login for admin
+import LoginAdmin from './pages/LoginAdmin';
 
 const PrivateRoute = ({ component: Component, role, token, ...rest }) => {
     return (
@@ -55,9 +59,8 @@ const PrivateRoute = ({ component: Component, role, token, ...rest }) => {
 const LoadBlog = Loadable({
     loader: () => import('./pages/Blog'),
     loading() {
-        return <div style={{ marginTop: '200px' }}>Loading...</div>
+        return <div style={{ marginTop: '200px' }}><Spin size="large" /></div>
     },
-    delay: 700,
 })
 
 const ListHeader = [
@@ -113,7 +116,7 @@ class Routes extends Component {
                         <Route path="/register" component={Register} />
                         <Route path="/login" component={Login} />
                         {/* admin */}
-                        {/* <PrivateRoute token={TOKEN} role={ROLE} path="/admin" exact={true} component={AdminLayout} /> */}
+                        <Route path="/admin/login" component={LoginAdmin} />
                         <AdminLayout />
                     </Switch>
                     <Switch>

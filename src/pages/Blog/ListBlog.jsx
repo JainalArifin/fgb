@@ -10,8 +10,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronCircleRight } from '@fortawesome/free-solid-svg-icons'
 // import { faFacebookSquare, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { Link } from 'react-router-dom'
+import { API_SERVICE } from '../../config/constant'
 
-const API_BLOG = `http://localhost:4000/blog`
 class ListBlog extends Component {
     constructor() {
         super()
@@ -33,7 +33,7 @@ class ListBlog extends Component {
     }
 
     getData = () => {
-        axios.get(API_BLOG)
+        axios.get(`${API_SERVICE.baseURL}/blog`)
             .then(({ data }) => {
                 this.setState({
                     list: data
@@ -44,7 +44,6 @@ class ListBlog extends Component {
     componentDidMount() {
         this.getData()
     }
-
     render() {
         const { list, currentPage, listPerPage, pageClass } = this.state
         // logic display list
@@ -55,7 +54,6 @@ class ListBlog extends Component {
         const renderList = currentList.map((item, index) => {
             return (
                 <Col md={4}  key={index}>
-                {console.log(item.id, ' <-----')}
                     <Card className="mt-2 blog shadow" >
                         <Link
                             to={`/blog/${item.id}`}
@@ -86,16 +84,16 @@ class ListBlog extends Component {
 
         const renderPageNumber = pageNumber.map((number, key) => {
             return (
-                <PaginationItem key={key}>
-                    <PaginationLink
-                        key={number}
-                        id={number}
-                        onClick={this.handleClick}
-                        className={pageClass}
-                    >
-                        {number}
-                    </PaginationLink>
-                </PaginationItem>
+                    <PaginationItem key={key}>
+                        <PaginationLink
+                            key={number}
+                            id={number}
+                            onClick={this.handleClick}
+                            className={pageClass}
+                        >
+                            {number}
+                        </PaginationLink>
+                    </PaginationItem>
             )
         })
 
