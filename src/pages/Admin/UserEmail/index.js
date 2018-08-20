@@ -55,6 +55,7 @@ export default class UserEmail extends Component{
                 <h2 className="title-list">Data User</h2>
                 <div className="garis-bawah-list-blog"></div>
                 <Table columns={columns} dataSource={dataUser} />
+
             </div>
         )
     }
