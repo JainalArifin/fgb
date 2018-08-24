@@ -1,0 +1,6 @@
+const videosPlay = [
+    { id: 1, videoToUrl: "https://media.w3.org/2010/05/sintel/trailer_hd.mp4", title: "Trading in indonesia", desc: " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." },
+    { id: 2, videoToUrl: "https://media.w3.org/2010/05/sintel/trailer_hd.mp4", title: "Tutorial", desc: " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." },
+    { id: 3, videoToUrl: "https://media.w3.org/2010/05/sintel/trailer_hd.mp4", title: "Learning Trading", desc: " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." },
+]
+export default videosPlay

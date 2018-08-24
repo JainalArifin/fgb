@@ -1,0 +1,48 @@
+/* information about */
+.styleAbout {
+    margin-top: 105px;
+}
+h1.titleAbout {
+    font-size: 26px;
+    color: #213364;
+}
+.hr-about {
+    border: 5px solid #F3A94A;
+    width: 23%;
+}
+.about-desc1 {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 25px;
+}
+/* image banner */
+.img-banner-about{
+    background: url('../../assets/banner-04.jpg');
+    height: 258px;
+    width: 100%;
+    margin: 51px 0px 60px 0px;
+    background-position-y: -67px;
+    background-position-x: center !important;
+}
+
+/* list about */
+h2.head-title-bout {
+    color: #213364;
+    font-size: 26px;
+    font-weight: 700;
+}
+.border-bottom-title {
+    border: 3px solid #F3A94A;
+    width: 30%;
+    margin-bottom: 17px;
+}
+p.desc-About {
+    font-weight: 200;
+    font-size: 14px;
+    margin-bottom: 43px;
+}
+img.img-fluid.about {
+    width: 45%;
+    height: auto;
+    /* margin: auto !important; */
+}

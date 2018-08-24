@@ -1,0 +1,51 @@
+@media (min-width:801px){
+    form.register-style {
+        width: 390px;
+        margin: auto;
+    }
+}
+.register.container {
+    margin-top: 107px;
+}
+input.form-control {
+    border-radius: 0px;
+    border: 3px solid;
+    background-color: white !important;
+}
+input.form-control {
+    border-radius: 0px;
+    border: 3px solid;
+    background-color: white !important;
+}
+label.title-register {
+    font-size: 13px;
+}
+button.btn-register.btn.btn-secondary.btn-lg.btn-block {
+    margin-bottom: 40px;
+    background-color: #F3A94A;
+    padding: 14px;
+    margin-top: 33px !important;
+}
+button.btn-register.btn.btn-secondary.btn-lg.btn-block:hover {
+    background-color: #c7852f;
+}
+b.have-account {
+    color: #233f8c;
+}
+b.have-account:hover {
+    color: #3063f1;
+    text-decoration: none !important;
+
+}
+img.account-logo {
+    width: 81px;
+}
+p.account-register {
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 8px;
+    margin-bottom: 0px !important;
+}
+a:hover {
+    text-decoration: none !important;
+}

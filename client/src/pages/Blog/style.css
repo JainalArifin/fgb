@@ -1,0 +1,126 @@
+.blog-style{
+    margin: 100px 0px 60px 0px;
+}
+
+
+/* list */
+.mt-2.card.blog {
+    border: 0px;
+    border-radius: 0px !important;
+    position: relative;
+    overflow: hidden;
+    /* font-family: "apercu",sans-serif; */
+    color: #202121;
+}
+img.card-img-top:hover {
+    -moz-transform: scale(5.1);
+    transform: scale(1.1);
+    transition: transform .5s;
+}
+img.card-img-top {
+    transition: transform .5s;
+    height: 305px;
+}
+h5.card-title {
+    font-size: 12px;
+    font-weight: 600;
+}
+p.card-text {
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 33px !important;
+}
+h6.card-subtitle {
+    font-size: 9px;
+}
+span.more-style {
+    cursor: pointer;
+}
+a.more-style {
+    text-decoration: none !important;
+}
+
+/* detail Blog */
+
+@media (min-width: 576px)  {
+    img.img-fluid.img-detail {
+        width: 100% !important;
+        height: 229px !important;
+        margin-top: 25px;
+    }
+}
+
+@media (min-width:992px){
+    img.img-fluid.img-detail {
+        width: 100% !important;
+        height: 530px !important;
+    }
+}
+
+.detailStyle.container {
+    margin-top: 110px;
+}
+img.img-fluid.img-detail {
+    border-radius: 15px !important;
+    -webkit-box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    /* box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important; */
+}
+.title-detail {
+    font-family: inherit !important;
+    font-size: 2rem;
+    font-weight: 400;
+}
+img.img-profile-detail {
+    border: 3px solid #FD8F77;
+    padding: 5px;
+    border-radius: 50%;
+}
+.img-style-parrent {
+    width: 20% !important;
+}
+p.author-detail.ml-4 {
+    font-weight: 300;
+}
+.desc{
+    width: 80% !important;
+    margin: auto !important;
+}
+p.detail-desc {
+    line-height: 2;
+    font-size: 21px;
+    font-weight: 100;
+    color: #423f3e;
+    font-family: 'Kreon', serif;
+}
+li.page-item1 {
+    border: 1px solid #eee;
+    padding: 20px 40px;
+    margin-right: 2px;
+    color: white;
+    background-color: black;
+}
+li.page-changeColor {
+    border: 1px solid #eee;
+    padding: 20px 40px;
+    margin-right: 2px;
+    color: black;
+    background-color: white;
+}
+
+h1.title-detail.mb-3.titleStyle {
+    font-weight: 600;
+    color: #213364;
+}
+
+/* disqus */
+.disqus-style {
+    margin-top: 60px !important;
+    width: 80% !important;
+    margin: auto !important;
+}
+
+td.text-desc {
+    line-height: 35px;
+}
+
